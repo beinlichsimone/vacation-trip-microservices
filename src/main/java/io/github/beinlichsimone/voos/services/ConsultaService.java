@@ -10,6 +10,7 @@ public class ConsultaService {
 
         StatusVooDTO status = new StatusVooDTO();
         status.setStatus(StatusVooEnum.OK);
+        System.out.println("Consultando voo: " + voo);
         return status;
     }
 }
